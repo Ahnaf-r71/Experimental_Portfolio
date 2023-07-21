@@ -1,0 +1,314 @@
+
+
+body{
+    background: black;
+    color: black;
+    background-size: cover;
+}
+.about{
+    background-image: url(hexaa.jpg);
+    background-position:left center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo-container{
+    border-top: 25px;
+    border-right :25px; ;
+    border-style: solid;
+    border-image:url(aw.gif) 10;
+    display: flex;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: top center;
+    padding: 20%;
+}
+
+.about_content{
+    padding: 5%;
+    color: aliceblue;
+    text-align: center;
+}
+
+.nav{
+    background-image: url(2.png);
+    padding: 2em;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.navbar-brand {
+color: rgb(238, 19, 19);
+margin-left: 6px;
+padding: 1px;
+}
+.about_content {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2em;
+}
+.about_content p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .4em;
+}
+.aboutdetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-image: url(H.jpg);
+    background-size: cover;
+    
+    background-position: center;  
+    color: rgb(0, 0, 0);
+    align-items:center;
+}
+
+.education{
+    border-image: url(circle2.jpg) 20 round;
+    border-left:15px ;
+    border-right:0px ;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: rgb(82, 81, 81);
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(240, 248, 255, 0.877);
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+.experience{
+    border-image: url(circle2.jpg) 20 round;
+    border-left:15px ;
+    border-right:0px ;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: rgb(82, 81, 81);
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(240, 248, 255, 0.877);
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+#aboutScroll{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 2em;;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#aboutScroll a{
+    color:red;
+    text-decoration: none;
+}
+#aboutScroll a:hover
+{
+    color:aqua;
+}
+
+.skills{
+align-items: center;
+padding: 1%;
+color: aliceblue;
+text-align: left;
+text-decoration: solid;
+}
+.here{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    text-align: center;
+    font-size: 2em; 
+    color: aliceblue;
+}
+.html 
+    {
+    width: 90%;
+    background-color: #04AA6D;
+    }
+.css 
+    {
+    width: 80%; 
+    background-color: #2196F3;
+    }
+.lara 
+    {
+    width: 65%; 
+    background-color: #f44336;
+    }
+.php 
+    {
+    width: 60%; 
+    background-color: #808080;
+    }
+
+.htmlimg{
+    background-image: url(html-5.png);
+    size: 2px;
+    padding: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.cssimg{
+    background-image: url(css.png);
+    size: 2px;
+    padding: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.laraimg{
+    background-image: url(php.png);
+    size: 2px;
+    padding: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.phpimg{
+    background-image: url(php1.png);
+    size: 2px;
+    padding: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.floating-container{
+    position:fixed;
+    width: 100px;
+    height: 100px;
+    bottom:0;
+    right: 0;
+}
+
+.floating-button{
+    
+    position: absolute;
+    width:65px;
+    height:65px;
+    background: #f34121;
+    bottom: 0;
+    border-radius: 50%;
+    left:0;
+    right: 0;
+    line-height: 65px;
+    text-align: center;
+}
+.floating-button a{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.project1{
+    display: flex;
+    background-color: #131212;
+    background: fill;
+    border-radius: 5%;
+
+}
+.proj1-photo{
+    display: flex;
+    justify-content: center;
+    background-image: url(p1.png);
+    padding: 25%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proj1-text{
+    padding: 15%;
+    border-width: 5px;
+    border-style: fill;
+    color: white;
+}
+.proj1-text a{
+    text-decoration: none;
+    color: rgb(255, 72, 0);
+}
+
+.project2{
+    display: flex;
+    background-color: #131212;
+    background: fill;
+    border-radius: 5%;
+
+}
+.proj2-photo{
+    display: flex;
+    justify-content: center;
+    background-image: url(p2.png);
+    padding: 25%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proj2-text{
+    padding: 15%;
+    border-width: 5px;
+    border-style: fill;
+    color: white;
+}
+.proj2-text a{
+    text-decoration: none;
+    color: rgb(255, 72, 0);
+}
+
+.footer{
+    display: flex;
+    justify-content:space-between;
+    background: #1a1919;
+    padding: 2.2%;
+}
+.rights p{
+    color: white;
+    font-weight: 600;
+}
+.left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.social{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.social li a i{
+    font-size: 21px;
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .about{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1200px) {
+
+    .about{
+        background-image: none;
+    }
+}
